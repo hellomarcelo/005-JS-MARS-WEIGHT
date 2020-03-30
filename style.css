@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css?family=Palanquin+Dark');
+
+body{
+    background: #0B1C22;
+    font-family: 'Palanquin Dark', sans-serif;
+    color: white;
+}
+
+
+.mars .planet{
+    background: #C25447;
+    box-shadow: inset -30px -30px 0px #bf4d3f;
+}
+
+.mars .planet:before{
+    background: #b4483c;
+}
+
+.mars .planet:after{
+    background: #b84a3d;
+}
+
+.title {
+    margin-top: 10%;
+    margin-bottom: 20px;
+}
+
+.planet {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: relative;
+}
+
+.peso {
+    margin-top: 40px;
+}
+
+.mars{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.planet:before {
+    content: '';
+    border-radius: 100%;
+    width: 12%;
+    height: 12%;
+    display: block;
+    margin: 10% 30%;
+    position: absolute;
+}
+.planet:after {
+    content: '';
+    border-radius: 100%;
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin: 50% 35%;
+    position: absolute;
+}
+
+span{
+    font-size: 20px;
+}
